@@ -1,0 +1,14 @@
+F:\workjob\_current\code\server_test_try2\server\server\bin\Debug\server.exe.config
+F:\workjob\_current\code\server_test_try2\server\server\bin\Debug\server.exe
+F:\workjob\_current\code\server_test_try2\server\server\bin\Debug\server.pdb
+F:\workjob\_current\code\server_test_try2\server\server\obj\Debug\server.csprojAssemblyReference.cache
+F:\workjob\_current\code\server_test_try2\server\server\obj\Debug\server.csproj.CoreCompileInputs.cache
+F:\workjob\_current\code\server_test_try2\server\server\obj\Debug\server.exe
+F:\workjob\_current\code\server_test_try2\server\server\obj\Debug\server.pdb
+D:\zzzz_workjob\_current\code\server_test_try3\server\server\bin\Debug\server.exe.config
+D:\zzzz_workjob\_current\code\server_test_try3\server\server\bin\Debug\server.exe
+D:\zzzz_workjob\_current\code\server_test_try3\server\server\bin\Debug\server.pdb
+D:\zzzz_workjob\_current\code\server_test_try3\server\server\obj\Debug\server.csprojAssemblyReference.cache
+D:\zzzz_workjob\_current\code\server_test_try3\server\server\obj\Debug\server.csproj.CoreCompileInputs.cache
+D:\zzzz_workjob\_current\code\server_test_try3\server\server\obj\Debug\server.exe
+D:\zzzz_workjob\_current\code\server_test_try3\server\server\obj\Debug\server.pdb

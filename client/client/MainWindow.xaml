@@ -1,0 +1,52 @@
+﻿<Window 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:client"
+    
+        xmlns:my2d_plots_extension="clr-namespace:my2d_plots_extension;assembly=my2d_plots_extension"
+    
+        x:Class="client.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="432.703" Width="683.33">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="305"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="126"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Button Click="ConnectClick" x:Name="ConnectBTn" Content="Подключиться" Margin="5"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="171"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Column="0" Grid.Row="0" Margin="5" Text="Общая длительность [с]"/>
+                <TextBox Grid.Column="1" Grid.Row="0" Margin="5"  x:Name="tSpan_input" Text="4"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="1" Margin="5" Text="Число измерений"/>
+                <TextBox Grid.Column="1" Grid.Row="1" Margin="5"  x:Name="nPoints_input" Text="16"/>
+
+            </Grid>
+            <Button Click="SendClick" x:Name="SendMSG" Content="Запросить" Margin="5"/>
+            </StackPanel>
+
+
+        <ListBox Margin="5" Grid.Row="1" x:Name="data_outp"/>
+        <my2d_plots_extension:my2d_plot_extension x:Name="mainPlot" Grid.Column="1" Grid.RowSpan="2" Margin="5" Height="auto" Width="auto"/>
+
+
+    </Grid>
+</Window>
